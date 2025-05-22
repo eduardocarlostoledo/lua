@@ -1,0 +1,200 @@
+.container-marcas {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
+  border-radius: 15px;
+}
+
+.brands-section {
+   max-width: 1500px;
+  margin: 2rem auto; /* unifica margen vertical y centra horizontal */
+  border-radius: 15px;
+  padding: 4rem 0;
+  /* background: #165BAC; */
+  color: white;
+  text-align: center;
+}
+
+.brands-description{
+  color: white;
+  margin: 20px;
+}
+
+.brands-section h2 {
+  font-size: 2rem;
+  /* background:#165BAC; */
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.brands-grid {
+  display: flex;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  padding: 0 20px;
+  justify-items: center;
+}
+
+.brand-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.brand-card:hover {
+  transform: translateY(-5px);
+}
+
+.brand-logo {
+  width: 100%;
+  height: auto;
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.brand-name {
+  font-size: 1rem;
+  color: #333;
+  margin-top: 0.5rem;
+}
+
+.guarantee {
+  margin-top: 3rem;
+  background: #e30613;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.guarantee h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.guarantee p {
+  font-size: 1rem;
+  margin: 0;
+}
+
+/* Responsive iPad y laptops */
+@media (max-width: 1024px) {
+  .brands-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .brand-logo {
+    max-width: 100px;
+  }
+
+  .brand-name {
+    font-size: 0.95rem;
+  }
+
+  .guarantee {
+    padding: 1.2rem;
+  }
+
+  .guarantee h3 {
+    font-size: 1.3rem;
+  }
+
+  .guarantee p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Responsive móviles y pantallas chicas */
+@media (max-width: 480px) {
+  .brands-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .brands-grid {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    padding: 0 10px;
+  }
+
+  .brand-card {
+    padding: 0.8rem;
+  }
+
+  .brand-logo {
+    max-width: 80px;
+  }
+
+  .brand-name {
+    font-size: 0.85rem;
+  }
+
+  .guarantee {
+    margin-top: 2rem;
+    padding: 1rem;
+  }
+
+  .guarantee h3 {
+    font-size: 1.1rem;
+  }
+
+  .guarantee p {
+    font-size: 0.85rem;
+  }
+}
+
+/* Extra small devices (330px tipo Android chiquito) */
+@media (max-width: 350px) {
+
+  .container-marcas{
+  /* width: 83%; */
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  }
+
+  .brands-grid {
+    margin: 50px;
+    gap: 0.5rem;
+    display: block;
+    align-items: center;
+  }
+
+.brand-card{
+  margin: 10px;
+}
+  .brands-section {
+    padding: 3rem 0;
+  }
+
+  .brands-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .brand-logo {
+    max-width: 70px;
+  }
+
+  .brand-name {
+    font-size: 0.8rem;
+  }
+
+  .guarantee h3 {
+    font-size: 1rem;
+  }
+
+  .guarantee p {
+    font-size: 0.8rem;
+  }
+}

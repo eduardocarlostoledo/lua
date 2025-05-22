@@ -1,0 +1,15 @@
+.brand-banner {
+    
+    padding: 2rem;
+    text-align: center;
+  }
+  .whatsapp-link {
+    color:white; /* Verde de WhatsApp */
+    font-weight: bold;
+  }
+  .email-link {
+    color:white; /* Rojo de Gmail */
+  }
+  .contact-info {
+    margin: 1rem 0;
+  }
