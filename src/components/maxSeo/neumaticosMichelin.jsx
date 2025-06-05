@@ -2,9 +2,9 @@ import "../../styles/NeumaticosMichelin.css"; // Asegúrate de que la ruta sea c
 import { Helmet } from 'react-helmet-async';
 
 function NeumaticosMichelin() {
-  const pageTitle = "Neumáticos Michelin en Encarnación | Appel Neumáticos";
-  const pageDescription = "Ofertas exclusivas en neumáticos Michelin para autos, camionetas y SUVs. Distribuidor autorizado en Itapúa con envíos a todo Paraguay y Argentina. ¡Garantía oficial!";
-  const canonicalUrl = "https://www.appelneumaticos.com/neumaticos-michelin";
+  const pageTitle = "ropa casual femenina Vestidos en Encarnación | LUA ropa casual femenina";
+  const pageDescription = "Ofertas exclusivas en ropa casual femenina Vestidos para autos, camionetas y SUVs. Distribuidor autorizado en Itapúa con envíos a todo Paraguay y Argentina. ¡Garantía oficial!";
+  const canonicalUrl = "https://www.appelneumaticos.com/neumaticos-Vestidos";
 
   return (
     <>
@@ -21,9 +21,9 @@ function NeumaticosMichelin() {
         <meta property="og:type" content="product" />
         <meta 
           property="og:image" 
-          content="https://www.appelneumaticos.com/images/michelin-og.jpg" 
+          content="https://www.appelneumaticos.com/images/Vestidos-og.jpg" 
         />
-        <meta property="og:site_name" content="Appel Neumáticos" />
+        <meta property="og:site_name" content="LUA ropa casual femenina" />
         <meta property="og:locale" content="es_PY" />
 
         {/* Twitter Card */}
@@ -32,7 +32,7 @@ function NeumaticosMichelin() {
         <meta name="twitter:description" content={pageDescription} />
         <meta 
           name="twitter:image" 
-          content="https://www.appelneumaticos.com/images/michelin-twitter.jpg" 
+          content="https://www.appelneumaticos.com/images/Vestidos-twitter.jpg" 
         />
 
         {/* Schema.org para producto */}
@@ -40,11 +40,11 @@ function NeumaticosMichelin() {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Product",
-            "name": "Neumáticos Michelin",
+            "name": "ropa casual femenina Vestidos",
             "description": pageDescription,
             "brand": {
               "@type": "Brand",
-              "name": "Michelin"
+              "name": "Vestidos"
             },
             "offers": {
               "@type": "Offer",

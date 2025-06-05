@@ -5,21 +5,21 @@ export const VehicleTypeSection = () => {
     {
       name: "Autos",
       image: "/autos.jpg",
-      alt: "Neumáticos y cubiertas para auto, moto y pickup en Encarnación",
+      alt: "ropa casual femenina y ropa casual para mujer para auto, moto y pickup en Encarnación",
       description: "Desde city cars hasta berlinas de lujo",
       price: "50000",
     },
     {
       name: "Motos",
       image: "/motos.jpg",
-      alt: "Neumáticos para motos en Encarnación",
-      description: "Cubiertas para scooters, naked, deportivas y más",
+      alt: "ropa casual femenina para motos en Encarnación",
+      description: "ropa casual para mujer para scooters, naked, deportivas y más",
       price: "35000",
     },
     {
       name: "Camionetas / Pickups",
       image: "/pickup.jpg",
-      alt: "Cubiertas para pickups y camionetas en Encarnación",
+      alt: "ropa casual para mujer para pickups y camionetas en Encarnación",
       description: "Tracción, carga y durabilidad para todos los caminos",
       price: "70000",
     },
@@ -31,7 +31,7 @@ export const VehicleTypeSection = () => {
       itemScope
       itemType="https://schema.org/ItemList"
     >
-      <h2>Neumáticos para <span itemProp="name">Todo Tipo de Vehículo</span></h2>
+      <h2>ropa casual femenina para <span itemProp="name">Todo Tipo de Vehículo</span></h2>
       
       <div 
         className="vehicle-grid"

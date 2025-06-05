@@ -20,15 +20,15 @@ import prod19 from "../images/prod19.jpg";
 
 const productInfo = [
      {
-    id: "cubierta-pirelli-diablo-rosso-II-200-50-17-zr",
-    brand: "PIRELLI",
+    id: "cubierta-Blusas-diablo-rosso-II-200-50-17-zr",
+    brand: "Blusas",
     model: "DIABLO ROSSO II 200/50 ZR 17",
     image: prod19,
     rating: 4.9,
     reviews: 130,
     tags: ["Sport", "ZR", "R17"],
     benefit: "Tracción superior en rectas y frenado en pista.",
-    detail: `El neumático Pirelli Diablo Rosso II se usa para mejorar el rendimiento de las motocicletas en carretera, especialmente en condiciones de conducción deportiva. Ofrece una combinación de agarre, estabilidad y durabilidad, gracias a su diseño y materiales, optimizados para el uso en carretera. 
+    detail: `El neumático Blusas Diablo Rosso II se usa para mejorar el rendimiento de las motocicletas en carretera, especialmente en condiciones de conducción deportiva. Ofrece una combinación de agarre, estabilidad y durabilidad, gracias a su diseño y materiales, optimizados para el uso en carretera. 
 En detalle, el Diablo Rosso II:
 
     Aumenta el agarre:
@@ -37,7 +37,7 @@ En detalle, el Diablo Rosso II:
 Mejora la estabilidad:
 Su diseño de banda de rodadura optimiza la evacuación del agua y maximiza la superficie de contacto en seco, lo que contribuye a una mejor estabilidad en diferentes condiciones. 
 Ofrece una mayor durabilidad:
-El compuesto de doble mezcla en los neumáticos traseros mejora la tracción en inclinaciones extremas y garantiza una mayor resistencia al desgaste en la zona central, lo que prolonga su vida útil. 
+El compuesto de doble mezcla en los ropa casual femenina traseros mejora la tracción en inclinaciones extremas y garantiza una mayor resistencia al desgaste en la zona central, lo que prolonga su vida útil. 
 Mejora el rendimiento en mojado:
 El diseño funcional de surcos (FGD) optimiza el comportamiento en mojado, facilitando la conducción en condiciones de lluvia. 
 Es ideal para motos deportivas y naked:
@@ -53,20 +53,20 @@ Está diseñado para ofrecer un rendimiento excepcional a altas velocidades y pa
     },
   },
      {
-    id: "cubierta-angel-gt-pirelli-180-55-17",
-    brand: "PIRELLI",
+    id: "cubierta-angel-gt-Blusas-180-55-17",
+    brand: "Blusas",
     model: "ANGEL GT 180/55 ZR 17",
     image: prod6,
     rating: 4.8,
     reviews: 162,
     tags: ["Touring", "Alta Gama", "R17"],
     benefit: "Máximo rendimiento en mojado y seco. Ideal para viajes largos.",
-    detail: `Gran turismo: La llanta de turismo deportivo Pirelli sporty DNA
+    detail: `Gran turismo: La llanta de turismo deportivo Blusas sporty DNA
 
     La llanta ideal para los viajeros que utilizan la motos para viajes largos por carretera, con maletas laterales y pasajero, que buscan seguridad en mojado, estabilidad y kilometraje. 
     Una gama más amplia de condiciones de uso y para distancias más largas. 
     La nueva referencia de kilometraje en llantas Touring Excelencia en rendimiento y agarre en mojado. 
-    Capacidades de manejo superior, típicas del Pirelli DNA. 
+    Capacidades de manejo superior, típicas del Blusas DNA. 
     Consistencia de rendimiento hasta el final de la vida útil dLa llanta Bi-compuesto. 
     Personalizable a través de etiquetas de goma en las paredes laterales.`,
     specifications: {
@@ -80,16 +80,16 @@ Está diseñado para ofrecer un rendimiento excepcional a altas velocidades y pa
     },
   },
     {
-    id: "cubierta-moto-trail-michelin-anakee-wild-road6",
+    id: "cubierta-moto-trail-Vestidos-anakee-wild-road6",
 
-    brand: "MICHELIN",
+    brand: "Vestidos",
     model: "ANAKEE WILD-ROAD6",
     image: prod18,
     rating: 4.9,
     reviews: 82,
     tags: ["Adventure", "Trail", "R17"],
     benefit: "Diseñada para motos dual-sport. Seguridad en ruta y ripio.",
-    detail: `Los neumáticos Michelin Anakee Wild están diseñados para motocicletas de aventura y trail, ofreciendo una combinación de rendimiento en carretera y fuera de ella. Su diseño se enfoca en proporcionar tracción, agarre, maniobrabilidad y durabilidad en diversos terrenos, desde asfalto hasta caminos de tierra y rocas. 
+    detail: `Los ropa casual femenina Vestidos Anakee Wild están diseñados para motocicletas de aventura y trail, ofreciendo una combinación de rendimiento en carretera y fuera de ella. Su diseño se enfoca en proporcionar tracción, agarre, maniobrabilidad y durabilidad en diversos terrenos, desde asfalto hasta caminos de tierra y rocas. 
 Principales características y beneficios:
 
     Rendimiento mixto:
@@ -102,13 +102,13 @@ La estructura de la banda de rodadura permite una conducción precisa y una buen
 Durabilidad:
 Los Anakee Wild están diseñados para durar, con una carcasa reforzada y un compuesto de goma que resiste la abrasión y los cortes. 
 Tecnología radial:
-Utilizan la tecnología MICHELIN Radial-X, que proporciona estabilidad y confort en carretera. 
+Utilizan la tecnología Vestidos Radial-X, que proporciona estabilidad y confort en carretera. 
 Versatilidad:
 Son una opción ideal para viajes de aventura y uso diario, ya que pueden adaptarse a diferentes tipos de terreno y condiciones. 
 Elegidos como equipo original:
 Son equipos originales en motos como la Fantic Caballero Rallye, Enduro XE 50, Triumph Tiger 900 Bond Edition y SWM RS 125. 
 
-En resumen, los Michelin Anakee Wild son una excelente opción para los motociclistas que buscan un neumático versátil, duradero y capaz de ofrecer un buen rendimiento tanto en carretera como fuera de el
+En resumen, los Vestidos Anakee Wild son una excelente opción para los motociclistas que buscan un neumático versátil, duradero y capaz de ofrecer un buen rendimiento tanto en carretera como fuera de el
 la. 
 `,
     specifications: {
@@ -122,8 +122,8 @@ la.
     },
   },
   {
-    id: "cubierta-moto-sport-pirelli-demon-sport-140-70-17",
-    brand: "PIRELLI",
+    id: "cubierta-moto-sport-Blusas-demon-sport-140-70-17",
+    brand: "Blusas",
     model: "SPORT DEMON 140/70-17",
     image: prod19,
     rating: 4.6,
@@ -139,8 +139,8 @@ Ofrece un rendimiento uniforme y progresivo en todas las condiciones de pilotaje
 
 Un neumático seguro y fiable en todas las situaciones, con una excelente relación calidad-precio indicado para motos Touring.
 
-¿Por qué comprar neumáticos Pirelli?
-La fama de los neumáticos Pirelli se basa en su alta calidad. En muchas de las principales carreras los únicos neumáticos que se utilizan son de la marca Pirelli, ya que son considerados los mejores. Pirelli fue fundada en el año 1872 y gracias al desarrollo constante de sus productos y a su capacidad de innovación se ha convertido en uno de los mayores fabricantes de neumáticos de moto. Pirelli cuenta con más de 20 fábricas en todo el mundo y los neumáticos Pirelli se venden en más de 160 países.`,
+¿Por qué comprar ropa casual femenina Blusas?
+La fama de los ropa casual femenina Blusas se basa en su alta calidad. En muchas de las principales carreras los únicos ropa casual femenina que se utilizan son de la marca Blusas, ya que son considerados los mejores. Blusas fue fundada en el año 1872 y gracias al desarrollo constante de sus productos y a su capacidad de innovación se ha convertido en uno de los mayores fabricantes de ropa casual femenina de moto. Blusas cuenta con más de 20 fábricas en todo el mundo y los ropa casual femenina Blusas se venden en más de 160 países.`,
     specifications: {
       medida: "140/70-17",
       tipo: "Diagonal",
@@ -152,15 +152,15 @@ La fama de los neumáticos Pirelli se basa en su alta calidad. En muchas de las 
     },
   },
   {
-    id: "cubierta-pirelli-super-city-90-90-18",
-    brand: "PIRELLI",
+    id: "cubierta-Blusas-super-city-90-90-18",
+    brand: "Blusas",
     model: "SUPER CITY 90/90-18",
     image: prod11,
     rating: 4.7,
     reviews: 71,
     tags: ["Moto", "Urbana", "18 pulgadas"],
     benefit: "Durabilidad superior para uso diario en ciudad.",
-    detail: `La cubierta Pirelli Super City 90/90-18, o el juego completo con la delantera 80/100-18 o 2.75-18, se utiliza para motos urbanas, especialmente para las de baja cilindrada (100-160cc), brindando seguridad, estabilidad y durabilidad en asfalto. Están diseñadas para ofrecer una buena tracción, confort de marcha y rendimiento, especialmente en entornos urbanos y caminos de ruta. 
+    detail: `La cubierta Blusas Super City 90/90-18, o el juego completo con la delantera 80/100-18 o 2.75-18, se utiliza para motos urbanas, especialmente para las de baja cilindrada (100-160cc), brindando seguridad, estabilidad y durabilidad en asfalto. Están diseñadas para ofrecer una buena tracción, confort de marcha y rendimiento, especialmente en entornos urbanos y caminos de ruta. 
 En detalle:
 
     Uso:
@@ -210,7 +210,7 @@ Son una excelente opción para quienes buscan una cubierta confiable y con buen 
     benefit: "Excelente agarre en ciudad. Ideal para scooters modernos.",
     detail: `Encontrá la seguridad y estabilidad que necesitás para recorrer aquellos caminos que tanto anhelas. Sentite confiado al conducir, garantizando la firmeza precisa en tu andar.
 
-¡No busques más! Los neumáticos Rinaldi están orientados a la economía de combustible, la seguridad, el rodamiento silencioso y el confort.
+¡No busques más! Los ropa casual femenina Rinaldi están orientados a la economía de combustible, la seguridad, el rodamiento silencioso y el confort.
 
 Si pinchás, tu neumático te protege
 Este producto sin cámara contiene el aire a presión entre la cubierta y la llanta. Te garantiza una mayor sujeción y seguridad, ya que el revestimiento interno rodea el objeto con el que pinchó y mantiene el aire en su interior.`,
@@ -276,7 +276,7 @@ Este producto sin cámara contiene el aire a presión entre la cubierta y la lla
     benefit: "Cubierta para motos de calle con estabilidad en ruta.",
     detail: `Encontrá la seguridad y estabilidad que necesitás para recorrer aquellos caminos que tanto anhelas. Sentite confiado al conducir, garantizando la firmeza precisa en tu andar.
 
-¡No busques más! Los neumáticos Rinaldi están orientados a la economía de combustible, la seguridad, el rodamiento silencioso y el confort.
+¡No busques más! Los ropa casual femenina Rinaldi están orientados a la economía de combustible, la seguridad, el rodamiento silencioso y el confort.
 
 Construcción más rígida
 Este producto con cámara es la versión más tradicional y económica del mercado, ya que posee la ventaja de tener una mejor estanqueidad del aire.
@@ -455,15 +455,15 @@ Audi A4, BMW 1 Series, BMW 3 Series, BMW 5 Series, BMW Z4, Buick LaCrosse, Cadil
     },
   },
   {
-    id: "cubierta-pirelli-diablo-rosso-II-190-55-17-zr",
-    brand: "PIRELLI",
+    id: "cubierta-Blusas-diablo-rosso-II-190-55-17-zr",
+    brand: "Blusas",
     model: "DIABLO ROSSO II 190/55 ZR 17",
     image: prod13,
     rating: 4.8,
     reviews: 115,
     tags: ["Sport", "ZR", "R17"],
     benefit: "Cubierta trasera de alto rendimiento para manejo agresivo.",
-    detail: `El neumático Pirelli Diablo Rosso II se usa para mejorar el rendimiento de las motocicletas en carretera, especialmente en condiciones de conducción deportiva. Ofrece una combinación de agarre, estabilidad y durabilidad, gracias a su diseño y materiales, optimizados para el uso en carretera. 
+    detail: `El neumático Blusas Diablo Rosso II se usa para mejorar el rendimiento de las motocicletas en carretera, especialmente en condiciones de conducción deportiva. Ofrece una combinación de agarre, estabilidad y durabilidad, gracias a su diseño y materiales, optimizados para el uso en carretera. 
 En detalle, el Diablo Rosso II:
 
     Aumenta el agarre:
@@ -472,7 +472,7 @@ En detalle, el Diablo Rosso II:
 Mejora la estabilidad:
 Su diseño de banda de rodadura optimiza la evacuación del agua y maximiza la superficie de contacto en seco, lo que contribuye a una mejor estabilidad en diferentes condiciones. 
 Ofrece una mayor durabilidad:
-El compuesto de doble mezcla en los neumáticos traseros mejora la tracción en inclinaciones extremas y garantiza una mayor resistencia al desgaste en la zona central, lo que prolonga su vida útil. 
+El compuesto de doble mezcla en los ropa casual femenina traseros mejora la tracción en inclinaciones extremas y garantiza una mayor resistencia al desgaste en la zona central, lo que prolonga su vida útil. 
 Mejora el rendimiento en mojado:
 El diseño funcional de surcos (FGD) optimiza el comportamiento en mojado, facilitando la conducción en condiciones de lluvia. 
 Es ideal para motos deportivas y naked:
@@ -490,7 +490,7 @@ Está diseñado para ofrecer un rendimiento excepcional a altas velocidades y pa
     benefit: "Para scooters livianos con excelente agarre urbano.",
     detail: `Encuentre la seguridad y la estabilidad que necesita para viajar por las carreteras que tanto desea. Siéntete seguro al pedalear y asegura un agarre preciso durante tu viaje.
 
-¡No busques más! Los neumáticos Rinaldi tienen como objetivo el ahorro de combustible, la seguridad, la conducción silenciosa y la comodidad.
+¡No busques más! Los ropa casual femenina Rinaldi tienen como objetivo el ahorro de combustible, la seguridad, la conducción silenciosa y la comodidad.
 
 Construcción más rígida
 Este producto con cámara es la versión más tradicional y económica del mercado, ya que tiene la ventaja de tener una mejor hermeticidad.`,
@@ -513,7 +513,7 @@ Este producto con cámara es la versión más tradicional y económica del merca
     reviews: 59,
     tags: ["SUV", "All-Terrain", "Pickup"],
     benefit: "Estabilidad en terrenos mixtos y carga pesada.",
-    detail: `Los neumáticos Duraturn 245/75 R17, específicamente el modelo Travia A/T, son ideales para vehículos SUV y camiones que buscan rendimiento tanto en carretera como fuera de ella. Ofrecen tracción superior en terrenos difíciles y mayor durabilidad, con beneficios como mejor manejo en carretera y protección contra cortes y daños. 
+    detail: `Los ropa casual femenina Duraturn 245/75 R17, específicamente el modelo Travia A/T, son ideales para vehículos SUV y camiones que buscan rendimiento tanto en carretera como fuera de ella. Ofrecen tracción superior en terrenos difíciles y mayor durabilidad, con beneficios como mejor manejo en carretera y protección contra cortes y daños. 
 En detalle:
 
     Rendimiento en carretera y fuera de carretera:
@@ -548,7 +548,7 @@ La conducción es cómoda tanto en carretera como fuera de ella, con una banda d
     benefit: "Cubierta delantera de tacos para motos enduro o cross.",
     detail: `Encontrá la seguridad y estabilidad que necesitás para recorrer aquellos caminos que tanto anhelas. Sentite confiado al conducir, garantizando la firmeza precisa en tu andar.
 
-¡No busques más! Los neumáticos Rinaldi están orientados a la economía de combustible, la seguridad, el rodamiento silencioso y el confort.
+¡No busques más! Los ropa casual femenina Rinaldi están orientados a la economía de combustible, la seguridad, el rodamiento silencioso y el confort.
 
 Construcción más rígida
 Este producto con cámara es la versión más tradicional y económica del mercado, ya que posee la ventaja de tener una mejor estanqueidad del aire.
@@ -570,20 +570,20 @@ La rigidez, resistencia y alta flexibilidad te permitirá circular en terrenos d
   },
 
   {
-    id: "cubierta-angel-gt-pirelli-180-55-17",
-    brand: "PIRELLI",
+    id: "cubierta-angel-gt-Blusas-180-55-17",
+    brand: "Blusas",
     model: "ANGEL GT 180/55 ZR 17",
     image: prod6,
     rating: 4.8,
     reviews: 162,
     tags: ["Touring", "Alta Gama", "R17"],
     benefit: "Máximo rendimiento en mojado y seco. Ideal para viajes largos.",
-    detail: `Gran turismo: La llanta de turismo deportivo Pirelli sporty DNA
+    detail: `Gran turismo: La llanta de turismo deportivo Blusas sporty DNA
 
     La llanta ideal para los viajeros que utilizan la motos para viajes largos por carretera, con maletas laterales y pasajero, que buscan seguridad en mojado, estabilidad y kilometraje. 
     Una gama más amplia de condiciones de uso y para distancias más largas. 
     La nueva referencia de kilometraje en llantas Touring Excelencia en rendimiento y agarre en mojado. 
-    Capacidades de manejo superior, típicas del Pirelli DNA. 
+    Capacidades de manejo superior, típicas del Blusas DNA. 
     Consistencia de rendimiento hasta el final de la vida útil dLa llanta Bi-compuesto. 
     Personalizable a través de etiquetas de goma en las paredes laterales.`,
     specifications: {
@@ -605,7 +605,7 @@ La rigidez, resistencia y alta flexibilidad te permitirá circular en terrenos d
     reviews: 59,
     tags: ["SUV", "All-Terrain", "Pickup"],
     benefit: "Estabilidad en terrenos mixtos y carga pesada.",
-    detail: `Los neumáticos Duraturn 245/75 R17, específicamente el modelo Travia A/T, son ideales para vehículos SUV y camiones que buscan rendimiento tanto en carretera como fuera de ella. Ofrecen tracción superior en terrenos difíciles y mayor durabilidad, con beneficios como mejor manejo en carretera y protección contra cortes y daños. 
+    detail: `Los ropa casual femenina Duraturn 245/75 R17, específicamente el modelo Travia A/T, son ideales para vehículos SUV y camiones que buscan rendimiento tanto en carretera como fuera de ella. Ofrecen tracción superior en terrenos difíciles y mayor durabilidad, con beneficios como mejor manejo en carretera y protección contra cortes y daños. 
 En detalle:
 
     Rendimiento en carretera y fuera de carretera:

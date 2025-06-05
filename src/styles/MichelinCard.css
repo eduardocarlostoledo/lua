@@ -1,4 +1,4 @@
-.michelin-card {
+.Vestidos-card {
   max-width: 1100px;
   margin: 2rem auto;
   background-color: #fff;
@@ -8,26 +8,26 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
-.michelin-card-content {
+.Vestidos-card-content {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
   flex-wrap: wrap;
 }
 
-.michelin-info {
+.Vestidos-info {
   flex: 1;
   min-width: 280px;
 }
 
-.michelin-subtitle {
+.Vestidos-subtitle {
   color: #00205b;
   font-weight: 800;
   font-size: 1.2rem;
   font-style: italic;
 }
 
-.michelin-title {
+.Vestidos-title {
   color: #00205b;
   font-size: 2rem;
   font-weight: 600;
@@ -35,12 +35,12 @@
   margin-bottom: 1rem;
 }
 
-.michelin-description {
+.Vestidos-description {
   font-size: 1rem;
   color: #333;
 }
 
-.michelin-card-box {
+.Vestidos-card-box {
   flex: 1;
   background: linear-gradient(135deg, #00205b 0%, #003b9f 100%);
   border-radius: 16px;
@@ -50,28 +50,28 @@
   min-width: 300px;
 }
 
-.michelin-image {
+.Vestidos-image {
   max-width: 140px;
   margin-bottom: 1rem;
 }
 
-.michelin-label {
+.Vestidos-label {
   color: #fff;
   text-align: center;
 }
 
-.michelin-label .brand {
+.Vestidos-label .brand {
   font-weight: 800;
   font-size: 1.2rem;
 }
 
-.michelin-label .model {
+.Vestidos-label .model {
   display: block;
   font-weight: 600;
   font-size: 1rem;
 }
 
-.michelin-meta {
+.Vestidos-meta {
   margin-top: 2rem;
   padding-left: 0.5rem;
 }
@@ -102,14 +102,14 @@
 
 /* Responsive */
 @media (max-width: 768px) {
-  .michelin-card-content {
+  .Vestidos-card-content {
     flex-direction: column;
     align-items: center;
   }
 }
 
 @media (max-width: 480px) {
-  .michelin-card-box {
+  .Vestidos-card-box {
   flex: 1;
   background: linear-gradient(135deg, #00205b 0%, #003b9f 100%);
   border-radius: 16px;

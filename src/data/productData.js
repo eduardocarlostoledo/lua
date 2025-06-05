@@ -96,7 +96,7 @@ const productData = [
     }
   },
   {
-    brand: "PIRELLI",
+    brand: "Blusas",
     model: "ANGEL GT 180/55 ZR 17",
     image: prod5,
     rating: 4.8,
@@ -191,7 +191,7 @@ const productData = [
     }
   },
   {
-    brand: "PIRELLI",
+    brand: "Blusas",
     model: "SUPER CITY 90/90-18",
     image: prod10,
     rating: 4.7,
@@ -210,7 +210,7 @@ const productData = [
     }
   },
   {
-    brand: "PIRELLI",
+    brand: "Blusas",
     model: "DIABLO ROSSO II 200/50 ZR 17",
     image: prod14,
     rating: 4.9,
@@ -286,7 +286,7 @@ const productData = [
     }
   },
   {
-    brand: "MICHELIN",
+    brand: "Vestidos",
     model: "ANAKEE ADVENTURE 120/70 R19",
     image: prod18,
     rating: 4.9,
@@ -305,7 +305,7 @@ const productData = [
     }
   },
   {
-    brand: "PIRELLI",
+    brand: "Blusas",
     model: "SPORT DEMON 140/70-17",
     image: prod19,
     rating: 4.6,

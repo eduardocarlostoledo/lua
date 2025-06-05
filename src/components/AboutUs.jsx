@@ -6,10 +6,10 @@ const AboutUs = () => {
   return (
     <>
       <Helmet>
-        <title>Sobre Nosotros | Appel Neumáticos Showroom</title>
+        <title>Sobre Nosotros | LUA COLLECTION CIRCUITO</title>
         <meta
           name="description"
-          content="Conoce nuestra historia y compromiso con la venta de neumáticos en Encarnación, Paraguay. Más de 15 años de experiencia nos respaldan."
+          content="Conoce nuestra historia y compromiso con la venta de ropa casual femenina en Encarnación, Paraguay. Más de 25 años de experiencia nos respaldan."
         />
       </Helmet>
 
@@ -27,7 +27,7 @@ const AboutUs = () => {
             transition={{ duration: 0.6 }}
             itemProp="name"
           >
-            Appel Neumáticos
+            LUA COLLECTION CIRCUITO
           </motion.h2>
 
           <motion.p
@@ -37,9 +37,9 @@ const AboutUs = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             itemProp="description"
           >
-            En <strong>APPEL NEUMÁTICOS</strong>, somos líderes en la venta y
-            distribución de neumáticos de alta calidad. Desde nuestros inicios,
-            nos comprometimos a brindar a nuestros clientes de <strong>Encarnación</strong> y todo <strong>Paraguay</strong> productos confiables y un servicio profesional. Nuestra pasión por la seguridad y el rendimiento en el camino nos impulsa a ofrecer siempre lo mejor.
+            En <strong>LUA COLLECTION</strong>, somos referentes en la venta y
+            distribución de ropa para mujer de alta calidad. Desde nuestros inicios,
+            nos comprometimos a brindar a nuestr@s <strong>client@s</strong> de todo <strong>Paraguay y Argentina</strong> productos de calidad, seleccionados especialmente para que tu estilo sea único y auténtico a un precio competitivo.
           </motion.p>
 
           <motion.ul
@@ -48,8 +48,8 @@ const AboutUs = () => {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
           >
-            <li className="stat-item">🚗 +10,000 neumáticos vendidos</li>
-            <li className="stat-item">🏆 15 años de experiencia</li>
+            <li className="stat-item">🚗 +100,000 ventas concretadas</li>
+            <li className="stat-item">🏆 25 años de experiencia</li>
             <li className="stat-item">🌎 Cobertura nacional e internacional</li>
           </motion.ul>
 
@@ -59,7 +59,7 @@ const AboutUs = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
           >
-            Conocé más visitando nuestro showroom en Encarnación o escribinos para recibir asesoramiento personalizado.
+            Conocé más visitando nuestro local en el circuito de Encarnación o escribinos para recibir asesoramiento personalizado.
           </motion.p>
         </div>
       </section>

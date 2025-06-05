@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container-footer">
-        <p>© 2024 Appel Neumáticos Showroom - Todos los derechos reservados</p>
+        <p>© 2024 LUA ropa casual femenina CIRCUITO - Todos los derechos reservados</p>
 
         <div className="contact-info">
           <a
@@ -28,9 +28,9 @@ const Footer = () => {
         <div className="footer-links">
           <div className="footer-column">
             <h4>Productos</h4>
-            <Link to="/autos/cubiertas">Cubiertas para Autos</Link>
-            <Link to="/motos/cubiertas">Cubiertas para Motos</Link>
-            <Link to="/camioneta-pickup/cubiertas">Cubiertas para Camionetas</Link>
+            <Link to="/autos/ropa casual para mujer">ropa casual para mujer para Autos</Link>
+            <Link to="/motos/ropa casual para mujer">ropa casual para mujer para Motos</Link>
+            <Link to="/camioneta-pickup/ropa casual para mujer">ropa casual para mujer para Camionetas</Link>
           </div>
 
           <div className="footer-column">

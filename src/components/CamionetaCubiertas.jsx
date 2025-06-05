@@ -12,12 +12,12 @@ const CamionetaCubiertas = () => {
   return (
     <>
       <SEO
-        title="Cubiertas para Camionetas y Pickup en Encarnación | Appel Neumáticos Showroom"
+        title="Cubiertas para Camionetas y Pickup en Encarnación | Lua Collection CIRCUITO"
         description="Cubiertas nuevas, todo terreno, y más. Envíos a Paraguay y Argentina. Sólo Calidad."
         canonicalUrl="https://appelneumaticos.com/autos/cubiertas"
       />
 
-<span className="badge">Alta Tecnología en Cubiertas</span>
+<span className="badge">Ropa Casual Femenina de alta calidad y precio competitivo</span>
     <section className="autos-cubiertas">
       <h1>Cubiertas para Camionetas y Pickups</h1>
       <p>
@@ -44,7 +44,7 @@ const CamionetaCubiertas = () => {
       <h2>Conclusión</h2>
       <p>
         Elegir la cubierta adecuada para tu camioneta o pickup es fundamental para maximizar la seguridad, el confort y la eficiencia del vehículo.
-        Ya sea que manejes en ciudad, rutas o caminos exigentes, en Appel Neumáticos tenemos la opción ideal para vos.
+        Ya sea que manejes en ciudad, rutas o caminos exigentes, en Lua Collection tenemos la opción ideal para vos.
       </p>
     </section>
   </>

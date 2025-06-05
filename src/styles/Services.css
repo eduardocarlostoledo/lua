@@ -21,8 +21,8 @@
   margin: 2rem auto; /* unifica margen vertical y centra horizontal */
   border-radius: 15px;
   padding: 4rem 0;
-   background:     
-    url("../images/bandera.jpg") repeat center center;
+   /* background:     
+    url("../images/bandera.jpg") repeat center center; */
   color: white;
   text-align: center;
 }

@@ -7,7 +7,7 @@ export const PricingSection = () => (
     itemScope
     itemType="https://schema.org/OfferCatalog"
   >
-    <h2 itemProp="name">Neumáticos de calidad para moto alta cilindrada al <span itemProp="price">Mejor Precio</span></h2>
+    <h2 itemProp="name">ropa casual femenina de calidad para moto alta cilindrada al <span itemProp="price">Mejor Precio</span></h2>
     
     <div className="price-highlights">
       <div 
@@ -16,7 +16,7 @@ export const PricingSection = () => (
         itemType="https://schema.org/Offer"
       >
         <span>💳</span>
-        <p itemProp="description">Appel Neumáticos Showroom cubiertas para auto moto camioneta en encarnacion Financiación directa <meta itemProp="priceCurrency" content="PYG"/></p>
+        <p itemProp="description">LUA ropa casual femenina CIRCUITO ropa casual para mujer para auto moto camioneta en encarnacion Financiación directa <meta itemProp="priceCurrency" content="PYG"/></p>
       </div>
       
       <div 

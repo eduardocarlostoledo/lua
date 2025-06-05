@@ -11,14 +11,14 @@ const AutosCubiertas = () => {
   return (
     <>
       <SEO
-        title="Cubiertas para Autos en Encarnación | Appel Neumáticos"
-        description="Cubiertas nuevas, deportivas, all-season y más. Envíos a todo Paraguay. Calidad garantizada."
+        title="Ropa Casual Femenina en Encarnación | Lua Collection"
+        description="Ropa para dama en encarnacion paraguay, mayor y menor, precios especiales. Envíos a todo Paraguay y Argentina. Calidad y precio garantizado."
         canonicalUrl="https://appelneumaticos.com/autos/cubiertas"
       />
 
-  <span className="badge">Alta Tecnología en Cubiertas</span>
+  <span className="badge">Ropa Casual Femenina de alta calidad y precio competitivo</span>
     <section className="autos-cubiertas">
-        <h1>Cubiertas para Autos</h1>
+        <h1>Ropa Casual Femenina</h1>
         <p>
           Las cubiertas para autos, también conocidas como neumáticos, son piezas de caucho con forma de anillo que se colocan sobre las llantas de un vehículo.
           Su función principal es permitir que el auto tenga contacto con la carretera y garantizar una conducción segura.

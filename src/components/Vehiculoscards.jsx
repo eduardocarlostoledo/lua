@@ -9,9 +9,9 @@ import supra from "../images/cars/supra.webp";
 
 const CarsSelection = () => {
   const cars = [
-    { image: moto, title: "Neumáticos para Motos", desc: "Pura potencia y estilo" },
-    { image: hilux, title: "Neumáticos para Camionetas", desc: "Seguridad y resistencia" },
-    { image: supra, title: "Neumáticos para Autos", desc: "Velocidad y diseño" }
+    { image: moto, title: "ropa casual femenina para Motos", desc: "Pura potencia y estilo" },
+    { image: hilux, title: "ropa casual femenina para Camionetas", desc: "Seguridad y resistencia" },
+    { image: supra, title: "ropa casual femenina para Autos", desc: "Velocidad y diseño" }
   ];
 
   const [current, setCurrent] = useState(0);
@@ -24,8 +24,8 @@ const CarsSelection = () => {
   return (
     <section className="slider-section" id="neumaticos">
       <Helmet>
-        <title>Appel Neumáticos Showroom | Inicio</title>
-        <meta name="description" content="Neumáticos para motos, autos y camionetas en Encarnación - Appel Neumáticos Showroom." />
+        <title>LUA ropa casual femenina CIRCUITO | Inicio</title>
+        <meta name="description" content="ropa casual femenina para motos, autos y camionetas en Encarnación - LUA ropa casual femenina CIRCUITO." />
         <link rel="canonical" href="https://www.appelneumaticos.com/" />
       </Helmet>
 

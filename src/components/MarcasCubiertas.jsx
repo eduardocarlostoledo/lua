@@ -43,10 +43,10 @@ const MarcasCubiertas = () => {
   return (
     <>
       <Helmet>
-        <title>Marcas de Neumáticos en Encarnación | Appel Neumáticos Showroom</title>
+        <title>Marcas de ropa casual femenina en Encarnación | LUA ropa casual femenina CIRCUITO</title>
         <meta
           name="description"
-          content="Distribuidor autorizado de neumáticos Pirelli, Michelin, Bridgestone, Dunlop, Firestone, Durable, XBRI en Encarnación Paraguay."
+          content="Distribuidor autorizado de ropa casual femenina Blusas, Vestidos, Bridgestone, Dunlop, Firestone, Durable, XBRI en Encarnación Paraguay."
         />
         <link rel="canonical" href="https://appelneumaticos.com/marcas" />
       </Helmet>
@@ -54,13 +54,13 @@ const MarcasCubiertas = () => {
       <section className="brands-section" id="marcas">
         <div className="container-marcas">
           <span className="badge">Distribuidores Oficiales</span>
-          <h1>Las Mejores Marcas de Neumáticos en Encarnación</h1>
+          <h1>Las Mejores Marcas de ropa casual femenina en Encarnación</h1>
           <p className="brands-description">
-            En <strong>Appel Neumáticos Showroom</strong> nos especializamos en proveer neumáticos de alta calidad para autos, motos y camionetas. Contamos con stock permanente de las marcas más reconocidas del mundo.
+            En <strong>LUA ropa casual femenina CIRCUITO</strong> nos especializamos en proveer ropa casual femenina de alta calidad para autos, motos y camionetas. Contamos con stock permanente de las marcas más reconocidas del mundo.
           </p>
 
           <p className="brands-description">
-            Nuestra selección incluye opciones para todos los terrenos y necesidades: neumáticos deportivos, touring, all-terrain, off-road, urbanos y de alto rendimiento. Con asesoramiento personalizado y envíos a todo Paraguay y Argentina.
+            Nuestra selección incluye opciones para todos los terrenos y necesidades: ropa casual femenina deportivos, touring, all-terrain, off-road, urbanos y de alto rendimiento. Con asesoramiento personalizado y envíos a todo Paraguay y Argentina.
           </p>
 
           <motion.div
@@ -81,7 +81,7 @@ const MarcasCubiertas = () => {
                 <img
                   loading="lazy"
                   src={brand.logo}
-                  alt={`Neumáticos ${brand.name} en Appel Showroom`}
+                  alt={`ropa casual femenina ${brand.name} en LUA CIRCUITO`}
                   className="brand-logo"
                 />
               </motion.div>
@@ -89,7 +89,7 @@ const MarcasCubiertas = () => {
           </motion.div>
 
           <p className="brands-description">
-            Visitá nuestro showroom en Encarnación para recibir asesoramiento personalizado. Garantizamos neumáticos originales, con garantía de fábrica y precios competitivos. ¡Elegí calidad, elegí Appel!
+            Visitá nuestro CIRCUITO en Encarnación para recibir asesoramiento personalizado. Garantizamos ropa casual femenina originales, con garantía de fábrica y precios competitivos. ¡Elegí calidad, elegí LUA!
           </p>
         </div>
       </section>

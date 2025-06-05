@@ -12,14 +12,14 @@ const MotosCubiertas = () => {
   return (
     <>
       <SEO
-        title="Cubiertas para Motos de Alta Cilindrada en Encarnación | Appel Neumáticos Showroom"
-        description="Neumáticos de alta calidad para motos. Más agarre, seguridad y durabilidad. Appel Neumáticos Showroom Encarnación, Paraguay."
+        title="Ropa Casual Femenina de alta calidad y precio competitivo en Encarnación | Lua Collection CIRCUITO"
+        description="Neumáticos de alta calidad para motos. Más agarre, seguridad y durabilidad. Lua Collection CIRCUITO Encarnación, Paraguay."
         canonicalUrl="https://appelneumaticos.com/autos/cubiertas"
       />   
 
-<span className="badge">Alta Tecnología en Cubiertas</span>
+<span className="badge">Ropa Casual Femenina de alta calidad y precio competitivo</span>
     <section className="autos-cubiertas">
-      <h1>Cubiertas para Motos de Alta Cilindrada</h1>
+      <h1>Ropa Casual Femenina de alta calidad y precio competitivo</h1>
       <p>
         Las cubiertas, también conocidas como neumáticos, para motos de alta cilindrada son componentes cruciales que determinan el agarre, la estabilidad y la seguridad de la moto, especialmente en situaciones de alta velocidad y curvas cerradas.
         Estos neumáticos están diseñados para satisfacer las demandas de la conducción deportiva y de larga distancia, y se caracterizan por su mayor resistencia y agarre que las cubiertas convencionales.

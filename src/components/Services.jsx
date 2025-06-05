@@ -18,11 +18,9 @@ const Services = () => {
   return (
     <section className="services" id="productos">
       <div className="container-services">
-        <h2>Venta de Neumáticos y Cubiertas para Autos, Motos y Camionetas</h2>
+        <h2>Venta Mayorista y Minorista  de ropa casual femenina</h2>
         <p className="services-description">
-          En Appel Neumáticos contamos con un amplio catálogo de cubiertas para
-          todo tipo de vehículos. Elegí entre las mejores marcas para tu auto,
-          moto o camioneta.
+          En LUA COLLECTION CIRCUITO contamos con un amplio catálogo de ropa para mujer. Elegí variedad de talles y estilos, para salir o para estar súper cómoda.
         </p>
 
         <div className="search-bar">
@@ -46,7 +44,7 @@ const Services = () => {
               </div>
               <div className="product-info">
                 <h4 className="brand-product">{item.brand}</h4>
-                <h3 className="model-product">{item.model}</h3>
+                
 
                 <div className="rating">
                   <span>⭐⭐⭐⭐⭐</span>
@@ -54,14 +52,7 @@ const Services = () => {
                   <span className="reviews">({item.reviews})</span>
                 </div>
 
-                <div className="tags">
-                  {item.tags.map((tag, i) => (
-                    <span className="tag" key={i}>
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-
+                
                 <div className="benefit">
                   <span className="badge">Durability</span>
                   <p>{item.benefit}</p>
@@ -110,9 +101,9 @@ export default Services;
 //   return (
 //     <section className="services" id="productos">
 //       <div className="container-services">
-//         <h2>Venta de Neumáticos y Cubiertas para Autos, Motos y Camionetas</h2>
+//         <h2>Venta de ropa casual femenina y ropa casual para mujer para Autos, Motos y Camionetas</h2>
 //         <p className="services-description">
-//           En Appel Neumáticos contamos con un amplio catálogo de cubiertas para
+//           En LUA ropa casual femenina contamos con un amplio catálogo de ropa casual para mujer para
 //           todo tipo de vehículos. Elegí entre las mejores marcas para tu auto,
 //           moto o camioneta.
 //         </p>

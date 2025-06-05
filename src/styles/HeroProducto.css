@@ -1,0 +1,104 @@
+.hero-producto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  background: #f8f8f8;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.hero-imagen {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+  min-width: 300px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.hero-imagen img {
+  width: 50%;
+  height: auto;
+  object-fit: contain; /* Muestra toda la modelo */
+  display: block;
+  border-radius: 20px;
+  margin:10px;
+}
+
+
+.hero-contenido {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.hero-titulo {
+  font-size: 2.8rem;
+  color: #1a1a1a;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.hero-descripcion {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.hero-boton {
+  background-color: #d4a017;
+  color: white;
+  border: none;
+  padding: 0.9rem 2rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-boton:hover {
+  background-color: #b8860b;
+}
+
+/* --------------------------------------- */
+/* 👇 Responsive para móviles pequeños 👇 */
+/* --------------------------------------- */
+
+@media screen and (max-width: 480px) {
+  .hero-producto {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    gap: 2rem;
+  }
+
+  .hero-imagen {
+    width: 100%;
+    height: 400px;
+    border-radius: 12px;
+  }
+
+  .hero-contenido {
+    text-align: center;
+    align-items: center;
+  }
+
+  .hero-titulo {
+    font-size: 2rem;
+  }
+
+  .hero-descripcion {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .hero-boton {
+    font-size: 0.95rem;
+    padding: 0.7rem 1.5rem;
+  }
+}

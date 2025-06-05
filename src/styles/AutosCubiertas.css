@@ -1,4 +1,4 @@
-.autos-cubiertas {
+.autos-ropa casual para mujer {
   max-width: 1200px;
   margin: 2rem auto;
   padding: 2rem 2rem;
@@ -9,7 +9,7 @@
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
 }
 
-.autos-cubiertas h1 {
+.autos-ropa casual para mujer h1 {
   font-size: 2.4rem;
   color: #00205b;
   font-weight: 700;
@@ -18,7 +18,7 @@
   margin-bottom: 1rem;
 }
 
-.autos-cubiertas h2 {
+.autos-ropa casual para mujer h2 {
   font-size: 1.6rem;
   color: #00205b;
   margin-top: 2rem;
@@ -26,24 +26,24 @@
   padding-left: 0.75rem;
 }
 
-.autos-cubiertas p {
+.autos-ropa casual para mujer p {
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 1rem;
 }
 
-.autos-cubiertas ul {
+.autos-ropa casual para mujer ul {
   list-style-type: disc;
   padding-left: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.autos-cubiertas li {
+.autos-ropa casual para mujer li {
   margin-bottom: 0.7rem;
   font-size: 1rem;
 }
 
-.autos-cubiertas strong {
+.autos-ropa casual para mujer strong {
   color: #00205b;
   font-weight: 600;
 }
@@ -62,20 +62,20 @@
 
 /* Responsive */
 @media (max-width: 480px) {
-  .autos-cubiertas {
+  .autos-ropa casual para mujer {
     padding: 1rem;
   }
 
-  .autos-cubiertas h1 {
+  .autos-ropa casual para mujer h1 {
     font-size: 1.8rem;
   }
 
-  .autos-cubiertas h2 {
+  .autos-ropa casual para mujer h2 {
     font-size: 1.3rem;
   }
 
-  .autos-cubiertas p,
-  .autos-cubiertas li {
+  .autos-ropa casual para mujer p,
+  .autos-ropa casual para mujer li {
     font-size: 0.95rem;
   }
 }

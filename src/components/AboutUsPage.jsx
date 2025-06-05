@@ -10,20 +10,20 @@ const AboutUsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Quiénes Somos | Appel Neumáticos Showroom</title>
+        <title>Quiénes Somos | LUA ropa casual femenina CIRCUITO</title>
         <meta
           name="description"
-          content="Conocé la historia y valores de Appel Neumáticos Showroom en Encarnación, Paraguay. Comprometidos con la calidad y el servicio."
+          content="Conocé la historia y valores de LUA ropa casual femenina CIRCUITO en Encarnación, Paraguay. Comprometidos con la calidad y el servicio."
         />
       </Helmet>
 
-      <span className="badge">Alta Tecnología en Cubiertas</span>
-      <section className="autos-cubiertas">
+      <span className="badge">Alta Tecnología en ropa casual para mujer</span>
+      <section className="autos-ropa casual para mujer">
         <h1>Quiénes Somos</h1>
         <p>
-          <strong>Appel Neumáticos Showroom</strong> es una empresa familiar ubicada
-          en Encarnación, Paraguay, dedicada a la venta de neumáticos de las
-          principales marcas como Pirelli, Michelin y Bridgestone. Estamos situados
+          <strong>LUA ropa casual femenina CIRCUITO</strong> es una empresa familiar ubicada
+          en Encarnación, Paraguay, dedicada a la venta de ropa casual femenina de las
+          principales marcas como Blusas, Vestidos y Bridgestone. Estamos situados
           a 300 metros de la aduana internacional, facilitando el acceso a nuestros
           clientes locales y extranjeros.
         </p>
@@ -45,7 +45,7 @@ const AboutUsPage = () => {
 
         <p>
           Con años de experiencia en el rubro, nos hemos consolidado como una opción
-          confiable para quienes buscan neumáticos y servicios de gomería en la región.{" "}
+          confiable para quienes buscan ropa casual femenina y servicios de gomería en la región.{" "}
           <strong>¡Te invitamos a conocernos y ser parte de nuestra comunidad!</strong>
         </p>
       </section>

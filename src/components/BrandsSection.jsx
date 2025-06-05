@@ -2,43 +2,43 @@ import { motion } from "framer-motion";
 import "../../src/styles/BrandsSection.css";
 
 // Importar logos de las marcas
-import bridgestoneLogo from "../images/logos/bridgestone.jpg";
-import dunlopLogo from "../images/logos/dunlop.png";
-import firestoneLogo from "../images/logos/firestone.png";
-import durableLogo from "../images/logos/durable.png";
-import michelinLogo from "../images/logos/michelin.png";
-import pirelliLogo from "../images/logos/pirelli.png";
-import xbriLogo from "../images/logos/xbri.png";
+import bridgestoneLogo from "../images/logos/dress-2-svgrepo-com.svg";
+import dunlopLogo from "../images/logos/dress-svgrepo-com.svg";
+import firestoneLogo from "../images/logos/hanger-svgrepo-com.svg";
+import durableLogo from "../images/logos/ladies-shirt-svgrepo-com.svg";
+import michelinLogo from "../images/logos/ladies-vest-svgrepo-com.svg";
+import pirelliLogo from "../images/logos/pants-svgrepo-com.svg";
+import xbriLogo from "../images/logos/shirt-with-bow-svgrepo-com.svg";
 
 const BrandsSection = () => {
   // Lista de marcas con logos importados
   const brands = [
     {
-      name: "Neumatico Cubierta Appel neumatico showroom Bridgestone",
+      name: "mayorista de ropa femenina en encarnacion Lua Collection CIRCUITO vestidos",
       logo: bridgestoneLogo,
     },
     {
-      name: "Neumatico Cubierta Appel neumatico showroom Dunlop",
+      name: "mayorista de ropa femenina en encarnacion Lua Collection CIRCUITO short pollera",
       logo: dunlopLogo,
     },
     {
-      name: "Neumatico Cubierta Appel neumatico showroom Firestone",
+      name: "mayorista de ropa femenina en encarnacion Lua Collection CIRCUITO vestimenta mujer casual ",
       logo: firestoneLogo,
     },
     {
-      name: "Neumatico Cubierta Appel neumatico showroom Durable",
+      name: "mayorista de ropa femenina en encarnacion Lua Collection CIRCUITO camisas",
       logo: durableLogo,
     },
     {
-      name: "Neumatico Cubierta Appel neumatico showroom Michelin",
+      name: "mayorista de ropa femenina en encarnacion Lua Collection CIRCUITO tops",
       logo: michelinLogo,
     },
     {
-      name: "Neumatico Cubierta Appel neumatico showroom Pirelli",
+      name: "mayorista de ropa femenina en encarnacion Lua Collection CIRCUITO pantalones",
       logo: pirelliLogo,
     },
     {
-      name: "Neumatico Cubierta Appel neumatico showroom Xbri",
+      name: "mayorista de ropa femenina en encarnacion Lua Collection CIRCUITO buzos",
       logo: xbriLogo,
     },
   ];
@@ -62,15 +62,11 @@ const BrandsSection = () => {
   return (
     <section className="brands-section" id="marcas">
       <div className="container-marcas">
-        <h2>
-          En Appel Neumáticos Showroom tenemos las siguientes marcas Pirelli, Michelin, Bridgestone, Dunlop, Firestone, Durable, Xbri, Rinaldi, 
-          y más
-        </h2>
+          <h2>Tu Estilo Casual, ¡Siempre con LUA COLLECTION CIRCUITO!</h2>
+          
+          
         <p className="brands-description">
-          Trabajamos con las principales marcas de cubiertas del mundo, como
-          Michelin, Pirelli, Bridgestone, Firestone, Dunlop, Durable, y XBRI,
-          para asegurar calidad, seguridad y rendimiento.
-        </p>
+    Descubre la ropa casual más linda y cómoda para mujer: pantalones, blusas, remeras, vestidos y más, con la calidad y los precios que te encantarán. ¡Siempre de la mano de los mejores fabricantes!        </p>
 
         <motion.div
           className="brands-grid"

@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet';
 
 
 const SEO = ({ 
-  title = "Appel Neumáticos | Venta en Encarnación",
-  description = "Distribuidor autorizado de Michelin, Pirelli y más. Envíos a Paraguay y Argentina.",
-  keywords = "neumáticos, cubiertas, Encarnación, Paraguay",
+  title = "LUA ropa casual femenina | Venta en Encarnación",
+  description = "Distribuidor autorizado de Vestidos, Blusas y más. Envíos a Paraguay y Argentina.",
+  keywords = "ropa casual femenina, ropa casual para mujer, Encarnación, Paraguay",
   canonicalUrl = typeof window !== 'undefined' ? window.location.href : '',
   ogImage = "https://www.appelneumaticos.com/og-default.jpg",
   twitterImage = "https://www.appelneumaticos.com/twitter-default.jpg"
@@ -39,7 +39,7 @@ const SEO = ({
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "AutoPartsStore",
-          "name": "Appel Neumáticos",
+          "name": "LUA ropa casual femenina",
           "description": description,
           "url": canonicalUrl,
           "logo": "https://www.appelneumaticos.com/logo.png"

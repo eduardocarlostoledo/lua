@@ -10,15 +10,15 @@ const Contact = () => {
     
   <>
     <Helmet>
-      <title>Contacto | Appel Neumáticos Showroom</title>
-      <meta name="description" content="Contactá con Appel Neumáticos Showroom en Encarnación, Paraguay. Estamos para ayudarte con tus consultas y necesidades." />
+      <title>Contacto | LUA ropa casual femenina CIRCUITO</title>
+      <meta name="description" content="Contactá con LUA ropa casual femenina CIRCUITO en Encarnación, Paraguay. Estamos para ayudarte con tus consultas y necesidades." />
     </Helmet>
 
-<span className="badge">Alta Tecnología en Cubiertas</span>
-    <section className="autos-cubiertas">
+<span className="badge">Alta Tecnología en ropa casual para mujer</span>
+    <section className="autos-ropa casual para mujer">
       <h1>Contacto</h1>
       <p>
-        ¿Tenés consultas o necesitás asesoramiento? En <strong>Appel Neumáticos Showroom</strong> estamos para ayudarte.
+        ¿Tenés consultas o necesitás asesoramiento? En <strong>LUA ropa casual femenina CIRCUITO</strong> estamos para ayudarte.
       </p>
 
       <h2>Datos de Contacto</h2>

@@ -10,7 +10,7 @@ import Location from "./components/Location";
 import BrandsSection from "./components/BrandsSection";
 import VehiculosCards from "./components/Vehiculoscards";
 import AboutUs from "./components/AboutUs";
-import AccesoriosCard from "./components/AccesoriosCard.jsx";
+import HeroProducto from "./components/HeroProducto.jsx";
 // Secciones específicas
 import AutosCubiertas from "./components/AutosCubiertas.jsx";
 import MotosCubiertas from "./components/MotosCubiertas.jsx";
@@ -36,8 +36,8 @@ const NotFound = () => (
 const HomePage = () => (
   <>
     
-    <AccesoriosCard/>
-    <VehiculosCards />
+    <HeroProducto/>
+    {/* <VehiculosCards /> */}
     <BrandsSection />
     <Services />
     <AboutUs />
@@ -63,7 +63,7 @@ const App = () => {
           />
           {/* <Route path="/servicios/alineacion" element={<Alineacion />} /> */}
           <Route path="/servicios/balanceo" element={<Balanceo />} />
-          <Route path="/marcas-appel-neumaticos-showroom" element={<MarcasCubiertas/>}/>
+          <Route path="/marcas-appel-neumaticos-CIRCUITO" element={<MarcasCubiertas/>}/>
           <Route path="/sucursales" element={<Sucursales/>}/>
           <Route path="/quienes-somos" element={<AboutUsPage />} />
           <Route path="/contacto" element={<Contact />} />

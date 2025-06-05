@@ -9,11 +9,11 @@ export const BrandBanner = () => (
     itemType="https://schema.org/AutoPartsStore"
   >
     {/* Título principal con ubicación */}
-    <h1 itemProp="name">Appel Neumáticos - Comprar Cubiertas para auto moto camioneta en  <span itemProp="addressLocality">Encarnación</span></h1>
-    <h2>Venta de Cubiertas para auto moto camioneta en Encarnacion</h2>
+    <h1 itemProp="name">LUA ropa casual femenina - Comprar ropa casual para mujer para auto moto camioneta en  <span itemProp="addressLocality">Encarnación</span></h1>
+    <h2>Venta de ropa casual para mujer para auto moto camioneta en Encarnacion</h2>
     {/* Descripción con servicios y área de cobertura */}
     <p itemProp="description">
-      <strong>Venta de neumáticos Pirelli, Michelin y Bridgestone</strong>. 
+      <strong>Venta de ropa casual femenina Blusas, Vestidos y Bridgestone</strong>. 
       Ubicados en <span itemProp="address">Rotonda Ruta Internacional - 300mt de la aduana internacional</span>.
       <span itemProp="areaServed">🚚 Enviamos a todo Paraguay y Argentina</span>.
     </p>
@@ -46,7 +46,7 @@ export const BrandBanner = () => (
 
     {/* Copyright (footer del banner) */}
     <p className="copyright">
-      © {new Date().getFullYear()} Appel Neumaticos Showroom - Todos los derechos reservados
+      © {new Date().getFullYear()} LUA Neumaticos CIRCUITO - Todos los derechos reservados
     </p>
   </header>
 );
