@@ -1,86 +1,147 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+﻿:root {
+  --bg: #faf8f6;
+  --surface: rgba(255, 255, 255, 0.86);
+  --text: #111118;
+  --muted: #52525d;
+  --primary: #ec64b7;
+  --accent: #fcba03;
+  --light: #ffffff;
+  --card: rgba(255, 255, 255, 0.88);
+  --shadow: rgba(0, 0, 0, 0.12);
+
+  --radius: 18px;
+  --shadow-soft: 0 12px 24px rgba(0, 0, 0, 0.08);
+  --shadow-strong: 0 16px 28px rgba(0, 0, 0, 0.18);
+  --transition: 0.22s ease;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1.25rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --max-content-width: 1180px;
+
+  font-family: "Inter", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  
-
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  
-  text-decoration: inherit;
+:focus-visible {
+  outline: 3px solid rgba(236, 100, 183, 0.8);
+  outline-offset: 3px;
 }
-a:hover {
-  color: #d8d9e7;
+
+[data-theme="dark"] {
+  --bg: #06070d;
+  --surface: rgba(18, 18, 24, 0.82);
+  --text: #f3f4ff;
+  --muted: rgba(228, 229, 255, 0.75);
+  --card: rgba(28, 29, 39, 0.75);
+  --shadow: rgba(0, 0, 0, 0.32);
+}
+
+html,
+body {
+  height: 100%;
 }
 
 body {
   margin: 0;
   min-width: 320px;
-  min-height: 100vh;
-  
-  place-items: center;
-  font-family: 'Segoe UI', sans-serif;
-
-  background:
-    radial-gradient(circle at top left, rgba(21, 101, 192, 0.2), transparent 50%),
-    
-    linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.3));
-    
-
-  background-size: cover;
-  background-attachment: fixed;
-  background-blend-mode: overlay, overlay;
-  color: #f0f0f0;
-}
-
-
-
-h1 {  
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
+  background: radial-gradient(circle at top, rgba(236, 100, 183, 0.15), transparent 60%),
+    linear-gradient(110deg, rgba(245, 247, 255, 0.92), rgba(255, 255, 255, 0.88));
+  color: var(--text);
   font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  scroll-behavior: smooth;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
 
+a:hover {
+  text-decoration: underline;
+}
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(236, 100, 183, 0.3);
+}
+
+/* Shared UI utilities */
+.btn {
+  border: none;
+  border-radius: var(--radius);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.85rem 1.4rem;
+  transition: transform var(--transition), box-shadow var(--transition), background var(--transition), border-color var(--transition);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.btn--primary {
+  background: var(--primary);
+  color: var(--light);
+  box-shadow: var(--shadow-soft);
+}
+
+.btn--primary:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-strong);
+}
+
+.btn--outline {
+  border: 2px solid rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+.btn--outline:hover {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.container {
+  width: min(var(--max-content-width), 100%);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.section {
+  padding: var(--space-xl) 0;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-
+.animate-fade-up {
+  animation: fadeInUp 0.82s ease forwards;
+}

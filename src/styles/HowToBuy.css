@@ -1,0 +1,58 @@
+.how-to-buy {
+  padding: 3.5rem 1rem;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.how-to-buy .section-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.how-to-buy .section-header h2 {
+  font-size: clamp(2rem, 3.5vw, 2.5rem);
+  margin: 0;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+
+.step {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 14px 22px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.step-number {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(236, 100, 183, 0.2);
+  color: var(--primary);
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+
+.step-title {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.step-desc {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+[data-theme="dark"] .step {
+  border-color: rgba(255, 255, 255, 0.12);
+}

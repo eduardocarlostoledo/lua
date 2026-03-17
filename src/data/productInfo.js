@@ -4,7 +4,7 @@ import prod3 from "../images/prod3.jpg";
 import prod4 from "../images/prod4.jpg";
 import prod5 from "../images/prod5.jpg";
 import prod6 from "../images/prod6.jpg";
-import prod7 from "../images/prod7.jpg";
+
 import prod8 from "../images/prod8.jpg";
 import prod9 from "../images/prod9.jpg";
 import prod10 from "../images/prod10.jpg";
@@ -296,37 +296,7 @@ Es un neumático que se caracteriza por una gran dureza y mayor duración, ideal
   },
  
 
-  {
-    id: "cubierta-uraturn-energy-mozzo-sport-255-40-17",
-    brand: "URATURN",
-    model: "ENERGY MOZZO SPORT 255/40 R17 98W XL",
-    image: prod7,
-    rating: 4.2,
-    reviews: 40,
-    tags: ["Auto Compacto", "R17", "270km/h"],
-    benefit: "Cubierta económica con diseño de canaleta para buen drenaje.",
-    detail: `
 
-La cubierta Duraturn Mozzo Sport ha sido diseñada específicamente para sedanes deportivos y coupés de nivel medio, ofreciendo un rendimiento sobresaliente y una conducción sin complicaciones. Gracias a su avanzada tecnología, proporciona un manejo superior y un excelente agarre tanto en condiciones húmedas como secas. La Mozzo Sport no solo garantiza un desempeño vigoroso, sino que también ofrece una larga vida útil y una experiencia de conducción cómoda, incluso en trayectos largos. Con esta llanta, los conductores obtienen la combinación perfecta de potencia, control y confort en cualquier tipo de carretera.
-
-Características
-
-    Los cuatro surcos anchos en la circunferencia proporcionan un desempeño superior en condiciones húmedas.
-    El diseño de hombro asimétrico aumenta el desempeño y la respuesta de dirección al voltear.
-    La avanzada tecnología de reducción de ruido hace que sus paseos sean silenciosos y más agradables.
-    La tecnología de doble capa en espiral de nylon resiste los efectos de la acumulación de calor y mantiene uniformidad para un manejo sin problemas.
-
-`,
-    specifications: {
-      medida: "155/80R13",
-      tipo: "Radial",
-      uso: "Ciudad",
-      velocidad: "T",
-      carga: "79",
-      cámara: "Sin cámara",
-      compuesto: "Convencional",
-    },
-  },
   {
     id: "cubierta-uraturn-energy-mozzo-sport-155-80-13",
     brand: "URATURN",

@@ -1,0 +1,43 @@
+.newdrops {
+  padding: 4rem 1rem 3rem;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.section-header h2 {
+  font-size: clamp(2rem, 3.5vw, 2.6rem);
+  margin: 0;
+}
+
+.section-subtitle {
+  margin-top: 0.75rem;
+  color: var(--muted);
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.urgency {
+  margin-top: 2rem;
+  text-align: center;
+  font-weight: 600;
+  color: var(--primary);
+}
+
+@media (max-width: 520px) {
+  .section-header h2 {
+    font-size: 2rem;
+  }
+}

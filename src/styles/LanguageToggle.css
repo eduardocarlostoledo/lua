@@ -1,0 +1,31 @@
+.language-toggle {
+  display: inline-flex;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.language-toggle button {
+  border: none;
+  background: transparent;
+  padding: 0.35rem 0.65rem;
+  font-size: 0.85rem;
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 700;
+  transition: background 0.2s ease;
+}
+
+.language-toggle button.active {
+  background: rgba(236, 100, 183, 0.18);
+}
+
+[data-theme="dark"] .language-toggle {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(20, 20, 24, 0.7);
+}
+
+[data-theme="dark"] .language-toggle button.active {
+  background: rgba(236, 100, 183, 0.25);
+}

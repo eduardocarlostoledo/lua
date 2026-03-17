@@ -4,7 +4,7 @@ import prod3 from "../images/prod3.jpg";
 import prod4 from "../images/prod4.jpg";
 import prod5 from "../images/prod5.jpg";
 import prod6 from "../images/prod6.jpg";
-import prod7 from "../images/prod7.jpg";
+
 import prod8 from "../images/prod8.jpg";
 import prod9 from "../images/prod9.jpg";
 import prod10 from "../images/prod10.jpg";
@@ -133,25 +133,7 @@ const productData = [
       compuesto: "Silica base"
     }
   },
-  {
-    brand: "URANIUM",
-    model: "155/80R13",
-    image: prod7,
-    rating: 4.2,
-    reviews: 40,
-    tags: ["Auto Compacto", "13 pulgadas", "Económico"],
-    benefit: "Cubierta económica con diseño de canaleta para buen drenaje.",
-    detail: "Cubierta de entrada para automóviles compactos. Diseño optimizado para lluvia y control urbano.",
-    specifications: {
-      medida: "155/80R13",
-      tipo: "Radial",
-      uso: "Ciudad",
-      velocidad: "T",
-      carga: "79",
-      cámara: "Sin cámara",
-      compuesto: "Convencional"
-    }
-  },
+  
   {
     brand: "URANIUM",
     model: "MOZZO SPORT 155/80R13",

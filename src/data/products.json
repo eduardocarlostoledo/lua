@@ -1,0 +1,165 @@
+[
+  {
+    "id": "vestido-lirio",
+    "name": "Vestido Lirio",
+    "tagline": "Fluidez y femineidad para atardeceres urbanos",
+    "category": "Vestidos",
+    "image": "prod1.jpg",
+    "newDrop": true,
+    "price": "Consultar"
+  },
+  {
+    "id": "blusa-dalia",
+    "name": "Blusa Dalia",
+    "tagline": "Tejido ligero con bordado artesanal",
+    "category": "Blusas",
+    "image": "prod2.jpg",
+    "newDrop": true,
+    "price": "Consultar"
+  },
+  {
+    "id": "conjunto-seda",
+    "name": "Conjunto Seda Tropical",
+    "tagline": "Top + falda: cortes suaves y colores vibrantes",
+    "category": "Conjuntos",
+    "image": "prod3.jpg",
+    "newDrop": true,
+    "price": "Consultar"
+  },
+  {
+    "id": "kimono-astral",
+    "name": "Kimono Astral",
+    "tagline": "Capas ligeras para outfits de día y noche",
+    "category": "Kimonos",
+    "image": "prod4.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "falda-cecilia",
+    "name": "Falda Cecilia",
+    "tagline": "Corte midi con detalle fruncido minimalista",
+    "category": "Faldas",
+    "image": "prod5.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "blazer-porto",
+    "name": "Blazer Porto",
+    "tagline": "Estructura relajada para looks de oficina con estilo",
+    "category": "Blazers",
+    "image": "prod6.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+
+  {
+    "id": "top-nova",
+    "name": "Top Nova",
+    "tagline": "Silueta minimalista con ribetes delicados",
+    "category": "Tops",
+    "image": "prod8.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "pantalon-essence",
+    "name": "Pantalón Essence",
+    "tagline": "Tiro alto y caída elegante para cualquier ocasión",
+    "category": "Pantalones",
+    "image": "prod9.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "vestido-sunrise",
+    "name": "Vestido Sunrise",
+    "tagline": "Estampa exclusiva inspirada en Praia da Vila",
+    "category": "Vestidos",
+    "image": "prod10.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "abrigo-grace",
+    "name": "Abrigo Grace",
+    "tagline": "Luz y abrigo en un solo ítem",
+    "category": "Abrigos",
+    "image": "prod11.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "chal-nature",
+    "name": "Chal Nature",
+    "tagline": "Tejido suave para capas ligeras",
+    "category": "Accesorios",
+    "image": "prod12.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "top-luna",
+    "name": "Top Luna",
+    "tagline": "Minimalista con detalle metálico",
+    "category": "Tops",
+    "image": "prod13.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "blusa-murano",
+    "name": "Blusa Murano",
+    "tagline": "Mangas voluminosas y escote discreto",
+    "category": "Blusas",
+    "image": "prod14.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "vestido-rosa",
+    "name": "Vestido Rosa",
+    "tagline": "Corte fluido y estampado suave",
+    "category": "Vestidos",
+    "image": "prod15.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "top-reef",
+    "name": "Top Reef",
+    "tagline": "Acento náutico con botones perlados",
+    "category": "Tops",
+    "image": "prod16.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "pantalon-harbor",
+    "name": "Pantalón Harbor",
+    "tagline": "Pierna ancha para looks sofisticados",
+    "category": "Pantalones",
+    "image": "prod17.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "vestido-olivia",
+    "name": "Vestido Olivia",
+    "tagline": "Drapeado suave y espalda descubierta",
+    "category": "Vestidos",
+    "image": "prod18.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  },
+  {
+    "id": "kimono-luanda",
+    "name": "Kimono Luanda",
+    "tagline": "Estilo boho con toque de sofisticación",
+    "category": "Kimonos",
+    "image": "prod19.jpg",
+    "newDrop": false,
+    "price": "Consultar"
+  }
+]

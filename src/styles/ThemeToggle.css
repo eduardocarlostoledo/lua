@@ -1,0 +1,23 @@
+.theme-toggle {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 999px;
+  padding: 0.4rem 0.7rem;
+  background: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: grid;
+  place-items: center;
+}
+
+.theme-toggle:hover {
+  background: rgba(236, 100, 183, 0.18);
+}
+
+[data-theme="dark"] .theme-toggle {
+  border-color: rgba(255, 255, 255, 0.18);
+  background: rgba(20, 20, 24, 0.7);
+}
+
+[data-theme="dark"] .theme-toggle:hover {
+  background: rgba(236, 100, 183, 0.25);
+}

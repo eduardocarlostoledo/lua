@@ -1,19 +1,15 @@
 /* App.css */
-:root {
-  --primary: #E30613; /* Rojo corporativo */
-  --dark: #1a1a1a;
-  --light: #ffffff;
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  min-height: 100vh;
 }
 
-
-
-body {
-  font-family: 'Arial', sans-serif;
-}
-
-.container-app {
-  max-width: 1500px;
-  margin: 0 auto;
-  padding: 0 20px;
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+  }
 }
 

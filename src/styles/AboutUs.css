@@ -1,33 +1,33 @@
 .about-section {
-  /* background: #f9f9f9; */
-  padding: 4rem 2rem;
-  text-align: center;
+  padding: var(--space-xl) 1rem 4rem;
+  background: var(--surface);
+  color: var(--text);
 }
 
 .about-container {
-  max-width: 1000px;
+  max-width: var(--max-content-width);
   margin: 0 auto;
   padding: 1rem;
 }
 
 .about-title {
-  font-size: 3.2rem;
-  color: white;
-  margin-bottom: 1.5rem;
+  font-size: clamp(2.6rem, 5vw, 3.4rem);
+  margin: 0;
+  color: var(--text);
 }
 
 .about-text {
-  color: white;
-  font-size: 1.7rem;
-  line-height: 1.8;
-  max-width: 800px;
+  color: var(--muted);
+  font-size: 1.2rem;
+  line-height: 1.75;
+  max-width: 780px;
   margin: 0 auto 2.5rem;
 }
 
 .about-stats {
   display: flex;
   justify-content: center;
-  gap: 1.5rem;
+  gap: var(--space-lg);
   flex-wrap: wrap;
   list-style: none;
   padding: 0;
@@ -35,20 +35,21 @@
 }
 
 .stat-item {
-  background: white;
-  padding: 1rem 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background: rgba(255, 255, 255, 0.9);
+  padding: 1rem 1.3rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
   font-weight: 600;
-  color: #e30613;
+  color: var(--primary);
   font-size: 1rem;
-  min-width: 240px;
+  min-width: 220px;
+  text-align: center;
 }
 
 .about-cta {
-  font-size: 1.1rem;
-  color: white;
-  max-width: 700px;
+  font-size: 1.05rem;
+  color: var(--text);
+  max-width: 780px;
   margin: 0 auto;
 }
 

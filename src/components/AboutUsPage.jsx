@@ -1,8 +1,13 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useContext } from "react";
 import { Helmet } from "react-helmet";
-import "../styles/AutosCubiertas.css";
+import SecondaryHeroSection from "./SecondaryHeroSection";
+import StoreLocation from "./StoreLocation";
+import { AppContext } from "../context/AppContext";
+import "../styles/AboutUs.css";
 
 const AboutUsPage = () => {
+  const { t } = useContext(AppContext);
+
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, []);
@@ -10,48 +15,32 @@ const AboutUsPage = () => {
   return (
     <>
       <Helmet>
-        <title>Quiénes Somos | LUA ropa casual femenina CIRCUITO</title>
-        <meta
-          name="description"
-          content="Conocé la historia y valores de LUA ropa casual femenina CIRCUITO en Encarnación, Paraguay. Comprometidos con la calidad y el servicio."
-        />
+        <title>{t("about.title")} | LUA Collection</title>
+        <meta name="description" content={t("about.description")} />
       </Helmet>
 
-      <span className="badge">Alta Tecnología en ropa casual para mujer</span>
-      <section className="autos-ropa casual para mujer">
-        <h1>Quiénes Somos</h1>
-        <p>
-          <strong>LUA ropa casual femenina CIRCUITO</strong> es una empresa familiar ubicada
-          en Encarnación, Paraguay, dedicada a la venta de ropa casual femenina de las
-          principales marcas como Blusas, Vestidos y Bridgestone. Estamos situados
-          a 300 metros de la aduana internacional, facilitando el acceso a nuestros
-          clientes locales y extranjeros.
-        </p>
+      <SecondaryHeroSection />
 
-        <h2>Nuestra Misión</h2>
-        <p>
-          Brindar productos y servicios de alta calidad que garanticen la seguridad
-          y satisfacción de nuestros clientes, ofreciendo asesoramiento
-          personalizado y soluciones a medida.
-        </p>
+      <section className="about-section">
+        <div className="about-container">
+          <h1 className="about-title">{t("about.title")}</h1>
+          <p className="about-text">{t("about.description")}</p>
 
-        <h2>Nuestros Valores</h2>
-        <ul>
-          <li><strong>Compromiso:</strong> Con la calidad y la satisfacción del cliente.</li>
-          <li><strong>Integridad:</strong> Actuamos con honestidad y transparencia.</li>
-          <li><strong>Innovación:</strong> Buscamos constantemente mejorar nuestros servicios.</li>
-          <li><strong>Responsabilidad:</strong> Con nuestros clientes y la comunidad.</li>
-        </ul>
+          <ul className="about-stats">
+            {t("about.stats").map((item, idx) => (
+              <li key={idx} className="stat-item">
+                {item}
+              </li>
+            ))}
+          </ul>
 
-        <p>
-          Con años de experiencia en el rubro, nos hemos consolidado como una opción
-          confiable para quienes buscan ropa casual femenina y servicios de gomería en la región.{" "}
-          <strong>¡Te invitamos a conocernos y ser parte de nuestra comunidad!</strong>
-        </p>
+          <p className="about-cta">{t("about.cta")}</p>
+        </div>
       </section>
+
+      <StoreLocation />
     </>
   );
 };
-
 
 export default AboutUsPage;
