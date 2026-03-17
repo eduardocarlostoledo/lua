@@ -89,7 +89,7 @@ const translations = {
       ],
       contact: {
         heading: "Contacto",
-        address: "Av. 14 de Mayo 1234, Encarnación",
+        address: "Calle Abogada Serafina Dávalos, Encarnación, Paraguay",
         hours: "Lun a Sáb 9:00 – 19:00",
         phone: "+595 984 366660",
         whatsappCall: "Escribinos por WhatsApp"
@@ -189,7 +189,7 @@ const translations = {
       ],
       contact: {
         heading: "Contato",
-        address: "Av. 14 de Mayo 1234, Encarnación",
+        address: "Calle Abogada Serafina Dávalos, Encarnación, Paraguay",
         hours: "Seg a Sáb 9:00 – 19:00",
         phone: "+595 984 366660",
         whatsappCall: "Escreva-nos no WhatsApp"

@@ -25,7 +25,7 @@ const Contact = () => {
       <ul>
         <li><strong>Teléfono:</strong> <a href="tel:+595982706757">+595 982 706 757</a></li>
         <li><strong>WhatsApp:</strong> <a href="https://wa.me/595982706757" target="_blank" rel="noopener noreferrer">+595 982 706 757</a></li>
-        <li><strong>Dirección:</strong> Av. San Roque González c/ San José, Encarnación, Paraguay</li>
+        <li><strong>Dirección:</strong> Calle Abogada Serafina Dávalos, Encarnación, Paraguay</li>
         <li><strong>Horarios:</strong> Lunes a Sábado de 05:45 a 17:30, Domingo de 07:00 a 12:00</li>
       </ul>
 
